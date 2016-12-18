@@ -1,0 +1,12 @@
+.img-circle {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.btn-logout {
+  margin-left: 15px;
+  margin-top: 13px;
+  margin-right: 10px;
+}

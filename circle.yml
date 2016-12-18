@@ -1,0 +1,13 @@
+dependencies:
+  cache_directories:
+    - node_modules
+  override:
+    - npm install
+deployment:
+  staging:
+    branch: dev
+    commands:
+      - ng build --prod
+machine:
+  node:
+    version: 7.2.0

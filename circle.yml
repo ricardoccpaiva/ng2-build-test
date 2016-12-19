@@ -5,7 +5,7 @@ dependencies:
     - npm install
 deployment:
   staging:
-    branch: dev
+    branch: master
     commands:
       - ng build --prod
 machine:
